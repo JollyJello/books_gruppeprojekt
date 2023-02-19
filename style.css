@@ -1,0 +1,211 @@
+/*GENEREL CSS*/
+body {
+  box-sizing: border-box;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+}
+
+section {
+  max-width: 1200px;
+  height: auto;
+  padding: 20px;
+}
+
+main {
+  max-width: 1200px;
+  height: auto;
+}
+
+header {
+  padding: 10px;
+  margin: 10px;
+  text-decoration-line: none;
+}
+
+/*BILLEDER*/
+img {
+  max-width: 100%;
+  display: flex;
+  flex-direction: flex-end;
+  left: 10px;
+}
+
+/*SKRIFT*/
+mark.R {
+  background: none;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-left: 1.5%;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif, serif;
+  color: black;
+  margin: 4px;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 4px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.t-shirt {
+  color: black;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.read_more {
+  text-decoration: underline;
+}
+
+/*MAIN-MENU*/
+.main-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 78%;
+  margin-top: -5%;
+  font-size: 1.1rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*MENU*/
+.menu {
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ba9cb9;
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+}
+
+.menu2 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+/*BOX OG "BEVÆGELSE"*/
+/* .box {
+  width: 350px;
+  padding: 25px;
+  text-align: left;
+  margin-left: 7%;
+
+} */
+/* 
+.box:hover {
+  background: #e8e8e8;
+  transition: transform 0.3s;
+  border-radius: 10px;
+} */
+
+.box2 {
+  width: 350px;
+  padding: 4px;
+  margin: 6px;
+  text-align: center;
+  border-radius: 30px;
+}
+/* 
+.box2:hover {
+  background: #e8e8e8;
+  transition: transform 0.3s;
+} */
+
+/*KØB-BOX*/
+.purchaseBox {
+  background: white;
+  color: var(--background-color);
+  padding: 4px;
+  border-radius: 30px;
+  border: 3px black;
+}
+
+UDSOLGT .productlist article.soldOut img {
+  opacity: 0.5;
+}
+
+.productlist article.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background: var(--color);
+  color: var(--background-color);
+  padding: 1rem;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  font-size: 0.5rem;
+  text-decoration: underline;
+  justify-content: left;
+}
+
+ol {
+  list-style: decimal outside;
+  list-style-position: outside;
+  list-style-type: decimal;
+}
+
+.book_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin-left: -55px;
+  font-weight: bold;
+  font-size: xx-small;
+}
+
+li {
+  margin: 0.6rem;
+  padding: 0.6rem;
+  font-size: xx-small;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
