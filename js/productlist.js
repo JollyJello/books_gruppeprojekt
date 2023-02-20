@@ -1,4 +1,14 @@
-fetch("https://litteratur-ba09.restdb.io/rest/books", {
+const urlParams = new URLSearchParams(window.location.search);
+const genre = urlParams.get("genre");
+let myUrl;
+
+if (genre == null) {
+  myUrl = "https://litteratur-ba09.restdb.io/rest/books";
+} else {
+  myUrl = `https://litteratur-ba09.restdb.io/rest/books?q={"genre":"${genre}"}`;
+}
+console.log("myUrl: " + myUrl);
+fetch(myUrl, {
   method: "get",
   headers: {
     "x-apikey": "63ea8a4e478852088da681d6",
@@ -22,7 +32,7 @@ function doSomething(books) {
     copy.querySelector("#author").textContent = book.author;
     copy.querySelector("#price").textContent = book.price + ".- kr";
     copy.querySelector("img").src = book.image;
-    copy.querySelector("a").href = `book.html?id=${book.id}`;
+    copy.querySelector("a").href = `book.html?id=${book._id}`;
     document.querySelector(".grid_1-1-1").appendChild(copy);
   });
 }
