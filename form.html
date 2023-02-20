@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
@@ -24,20 +25,29 @@
 
     <main>
         <form>
+            <div class="user_recommendation">
+                <div class="full_name">
+                    <label for="full-name">Fulde navn</label>
+                    <input id="full-name" name="fname" type="text">
+                </div>
 
-            <label for="full-name">Fulde navn</label>
-            <input id="full-name" name="fname" type="text">
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email">
+                </div>
 
-            <label for="email">E-mail</label>
-            <input id="email" name="email" type="email">
+                <div class="book_title">
+                    <label for="book_title">Book title</label>
+                    <input id="book_title" name="book_title" type="text">
+                </div>
 
-            <label for="book_title">Book title</label>
-            <input id="book_title" name="book_title" type="text">
+                <div class="author_text">
+                    <label for="author">Author</label>
+                    <input id="author" name="author" type="text">
+                    <button>Indsend</button>
+                </div>
 
-
-            <label for="author">Author</label>
-            <input id="author" name="author" type="text">
-            <button>Indsend</button>
+            </div>
 
             <fieldset>
                 <legend>Choose your the genre of your recommended book</legend>
