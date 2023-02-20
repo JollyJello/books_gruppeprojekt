@@ -1,0 +1,21 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.user_recommendation {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+/* .full_name,
+.email,
+.author_text,
+.book_title {
+  display: flex;
+  justify-content: space-evenly;
+} */
