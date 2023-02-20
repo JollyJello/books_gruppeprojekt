@@ -120,21 +120,6 @@ p {
   margin-left: 5px;
 }
 
-/*BOX OG "BEVÆGELSE"*/
-/* .box {
-  width: 350px;
-  padding: 25px;
-  text-align: left;
-  margin-left: 7%;
-
-} */
-/* 
-.box:hover {
-  background: #e8e8e8;
-  transition: transform 0.3s;
-  border-radius: 10px;
-} */
-
 .box2 {
   width: 350px;
   padding: 4px;
@@ -142,11 +127,6 @@ p {
   text-align: center;
   border-radius: 30px;
 }
-/* 
-.box2:hover {
-  background: #e8e8e8;
-  transition: transform 0.3s;
-} */
 
 /*KØB-BOX*/
 .purchaseBox {
