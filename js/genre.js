@@ -21,8 +21,8 @@ function showGenre(gen) {
   //cloner
   const clone = template.cloneNode(true);
   //ændrer indhold
-  clone.querySelector("a").textContent = gen.genre;
-  clone.querySelector("a").href = `productlist.html?genre=${gen.genre}`;
+  clone.querySelector("a").textContent = gen;
+  clone.querySelector("a").href = `productlist.html?genre=${gen}`;
   //appender
   document.querySelector(".grid_1-1 ol").appendChild(clone);
 }
