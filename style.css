@@ -24,15 +24,12 @@ header {
 }
 
 /*BILLEDER*/
-img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  display: flex;
-  flex-direction: flex-end;
+
+.book_forside {
+  width: auto;
+  height: auto;
   left: 10px;
 }
-
 /*SKRIFT*/
 mark.R {
   background: none;
