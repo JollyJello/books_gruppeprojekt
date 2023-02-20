@@ -78,6 +78,10 @@ p {
   color: black;
 }
 
+.modelname {
+  font-size: 2rem;
+}
+
 .price {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
