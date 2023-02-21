@@ -1,3 +1,13 @@
+@media (min-width: 800px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+}
+
 /*Grid til tshirts --- */
 .grid_1-1-1 {
   display: grid;
@@ -16,4 +26,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
