@@ -23,6 +23,6 @@ function showProduct(product) {
   // document.querySelector(".purchaseBox p").innerHTML = product.recommendation;
   // document.querySelector(".purchaseBox .brand").textContent = product.brandname;
   // document.querySelector(".purchaseBox").textContent = product.articletype;
-  document.querySelector("img").src = product.image;
+  document.querySelector(".grid_1_1 img").src = product.image;
   // document.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 }
