@@ -25,11 +25,6 @@ header {
 
 /*BILLEDER*/
 
-.book_forside {
-  width: auto;
-  height: auto;
-  left: 10px;
-}
 /*SKRIFT*/
 mark.R {
   background: none;
@@ -164,11 +159,23 @@ ol {
   list-style-type: decimal;
 }
 
-.book_container {
+/* .book_container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  max-width: 99%;
+} */
+
+.book_forside {
+  /* width: auto; */
+  /* height: auto; */
+  max-width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 99%;
 }
 
 ul {
@@ -194,5 +201,18 @@ a {
 }
 
 #shoppingbag {
-  margin-left: 1250px;
+  /* margin-left: 50em;
+  margin-top: 2em; */
+  margin-left: 80%;
+  align-items: left;
+  justify-content: right;
+  scale: 0.8;
+}
+
+#book_forside {
+  width: 100%;
+}
+
+.col {
+  margin-left: 13%;
 }
