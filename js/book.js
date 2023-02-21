@@ -20,7 +20,7 @@ function showProduct(product) {
   document.querySelector(".purchaseBox .color").textContent = product.basecolor;
   document.querySelector(".purchaseBox .number").textContent = product.id;
   document.querySelector(".purchaseBox p").innerHTML = product.description;
-  document.querySelector(".purchaseBox p").innerHTML = product.recommendation;
+  // document.querySelector(".purchaseBox p").innerHTML = product.recommendation;
   // document.querySelector(".purchaseBox .brand").textContent = product.brandname;
   // document.querySelector(".purchaseBox").textContent = product.articletype;
   document.querySelector("img").src = product.image;
