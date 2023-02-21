@@ -1,0 +1,10 @@
+#genre_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  margin-right: 20px;
+  margin-left: 20px;
+  gap: 120px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
