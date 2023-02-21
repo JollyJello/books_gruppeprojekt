@@ -1,103 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="layout.css" />
-    <link rel="stylesheet" href="form.css">
-</head>
+    <link rel="stylesheet" href="form.css" />
+  </head>
 
-<body>
-    <header>
+  <body>
+    <header class="grid_header">
+      <div>
         <div class="menu2">RECOMMENDED</div>
         <div class="menu">BOOKS</div>
         <nav>
-            <ul>
-                <li><a href="genre.html">GENRE</a></li>
-                <li><a href="productlist.html">ALL BOOKS</a></li>
-            </ul>
+          <ul>
+            <li><a href="genre.html">GENRE</a></li>
+            <li><a href="productlist.html">ALL BOOKS</a></li>
+          </ul>
         </nav>
+      </div>
+      <img id="shoppingbag" src="shoppingbag.png" alt="shoppingbag" />
     </header>
 
     <main>
-        <div id="form_h1">
-            <h1>Submit a book you would like to recommend to our collection!</h1>
+      <div id="form_h1">
+        <h1>Submit a book you would like to recommend to our collection!</h1>
+      </div>
+
+      <form>
+        <div class="user_recommendation">
+          <div class="full_name">
+            <label for="full-name">Fulde navn</label>
+            <input id="full-name" name="fname" type="text" />
+          </div>
+
+          <div class="email">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" />
+          </div>
+
+          <div class="book_title">
+            <label for="book_title">Book title</label>
+            <input id="book_title" name="book_title" type="text" />
+          </div>
+
+          <div class="author_text">
+            <label for="author">Author</label>
+            <input id="author" name="author" type="text" />
+            <button>Indsend</button>
+          </div>
         </div>
 
-        <form>
-            <div class="user_recommendation">
-                <div class="full_name">
-                    <label for="full-name">Fulde navn</label>
-                    <input id="full-name" name="fname" type="text">
-                </div>
+        <fieldset>
+          <legend>Choose your the genre of your recommended book</legend>
 
-                <div class="email">
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="email">
-                </div>
+          <input type="radio" id="fiction" name="superhero" value="spiderman" />
+          <label for="fiction">Fiction</label><br />
 
-                <div class="book_title">
-                    <label for="book_title">Book title</label>
-                    <input id="book_title" name="book_title" type="text">
-                </div>
+          <input type="radio" id="biography" name="superhero" value="superman" />
+          <label for="biography">Biography</label><br />
 
-                <div class="author_text">
-                    <label for="author">Author</label>
-                    <input id="author" name="author" type="text">
-                    <button>Indsend</button>
-                </div>
+          <input type="radio" id="travel" name="superhero" value="superman" />
+          <label for="travel">Travel</label><br />
 
-            </div>
+          <input type="radio" id="memoir" name="superhero" value="superman" />
+          <label for="memoir">Memoir</label><br />
 
-            <fieldset>
-                <legend>Choose your the genre of your recommended book</legend>
+          <input type="radio" id="romance" name="superhero" value="superman" />
+          <label for="romance">Romance</label><br />
 
-                <input type="radio" id="fiction" name="superhero" value="spiderman">
-                <label for="fiction">Fiction</label><br />
+          <input type="radio" id="spirituality" name="superhero" value="superman" />
+          <label for="spirituality">Spirituality</label><br />
 
-                <input type="radio" id="biography" name="superhero" value="superman">
-                <label for="biography">Biography</label><br />
+          <input type="radio" id="science_fiction" name="superhero" value="spiderman" />
+          <label for="science_fiction">Science Fiction</label><br />
 
-                <input type="radio" id="travel" name="superhero" value="superman">
-                <label for="travel">Travel</label><br />
+          <input type="radio" id="cookbook" name="superhero" value="superman" />
+          <label for="cookbook">Cookbook</label><br />
 
-                <input type="radio" id="memoir" name="superhero" value="superman">
-                <label for="memoir">Memoir</label><br />
+          <input type="radio" id="horror" name="superhero" value="superman" />
+          <label for="horror">Horror</label><br />
 
-                <input type="radio" id="romance" name="superhero" value="superman">
-                <label for="romance">Romance</label><br />
+          <input type="radio" id="comedy" name="superhero" value="superman" />
+          <label for="comedy">Comedy</label><br />
 
-                <input type="radio" id="spirituality" name="superhero" value="superman">
-                <label for="spirituality">Spirituality</label><br />
+          <input type="radio" id="historic_novels" name="superhero" value="superman" />
+          <label for="historic_novels">Historic Novels</label><br />
 
-                <input type="radio" id="science_fiction" name="superhero" value="spiderman">
-                <label for="science_fiction">Science Fiction</label><br />
-
-                <input type="radio" id="cookbook" name="superhero" value="superman">
-                <label for="cookbook">Cookbook</label><br />
-
-                <input type="radio" id="horror" name="superhero" value="superman">
-                <label for="horror">Horror</label><br />
-
-                <input type="radio" id="comedy" name="superhero" value="superman">
-                <label for="comedy">Comedy</label><br />
-
-                <input type="radio" id="historic_novels" name="superhero" value="superman">
-                <label for="historic_novels">Historic Novels</label><br />
-
-                <input type="radio" id="psychology" name="superhero" value="superman">
-                <label for="psychology">Psychology</label><br />
-
-
-            </fieldset>
-
-        </form>
+          <input type="radio" id="psychology" name="superhero" value="superman" />
+          <label for="psychology">Psychology</label><br />
+        </fieldset>
+      </form>
     </main>
     <footer>&copy;2023 gruppe 15 | All Rights Reserved</footer>
-</body>
-
+  </body>
 </html>
