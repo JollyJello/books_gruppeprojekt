@@ -24,5 +24,5 @@ function showGenre(gen) {
   clone.querySelector("a").textContent = gen;
   clone.querySelector("a").href = `productlist.html?genre=${gen}`;
   //appender
-  document.querySelector(".grid_1-1 ol").appendChild(clone);
+  document.querySelector(".grid_1-1 ul").appendChild(clone);
 }

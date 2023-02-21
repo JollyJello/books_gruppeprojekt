@@ -20,8 +20,9 @@ function showProduct(product) {
   document.querySelector(".purchaseBox .color").textContent = product.basecolor;
   document.querySelector(".purchaseBox .number").textContent = product.id;
   document.querySelector(".purchaseBox p").innerHTML = product.description;
+  document.querySelector(".purchaseBox p").innerHTML = product.recommendation;
   // document.querySelector(".purchaseBox .brand").textContent = product.brandname;
-  document.querySelector(".purchaseBox .article").textContent = product.articletype;
-  document.querySelector("img").src = `https://litteratur-ba09.restdb.io/rest/books/${product.image}`;
+  // document.querySelector(".purchaseBox").textContent = product.articletype;
+  document.querySelector("img").src = product.image;
   // document.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 }

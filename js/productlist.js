@@ -28,7 +28,7 @@ function doSomething(books) {
     const copy = template.cloneNode(true);
     //ændre indhold
 
-    copy.querySelector("h2").textContent = book.title;
+    copy.querySelector("h3").textContent = book.title;
     copy.querySelector("#author").textContent = book.author;
     copy.querySelector("#price").textContent = book.price + ".- kr";
     copy.querySelector("img").src = book.image;
